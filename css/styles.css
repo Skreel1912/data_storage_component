@@ -1,0 +1,193 @@
+body {
+  background-color: #0c122c;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  width: 1440px;
+}
+
+.bg {
+  background: url(bg-desktop.png);
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left_block {
+  background-color: #1d2c67;
+  border-radius: 10px 100px 10px 10px;
+  display: inline-block;
+  height: 180px;
+  width: 300px;
+  position: relative;
+  right: 400px;
+  top: 100px;
+}
+
+.logo {
+  padding: 25px 0 50px 25px;
+}
+
+.document_bg {
+  background-color: #0c122c;
+  border-radius: 8px;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  right: 140px;
+  width: 40px;
+  height: 40px;
+}
+
+.document {
+  position: relative;
+  left: 10px;
+  top: 8px;
+}
+
+.icon_bg {
+  background-color: #0c122c;
+  border-radius: 8px;
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  right: 130px;
+  width: 40px;
+  height: 40px;
+}
+
+.icon {
+  position: relative;
+  top: 10px;
+  left: 8px;
+}
+
+.upload_bg {
+  background-color: #0c122c;
+  border-radius: 8px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  right: 120px;
+  width: 40px;
+  height: 40px;
+}
+
+.upload {
+  position: relative;
+  top: 12px;
+  left: 8px;
+}
+
+.right_block {
+  background-color: #1d2c67;
+  border-radius: 10px;
+  display: inline-block;
+  font-weight: normal;
+  height: 150px;
+  width: 600px;
+  position: relative;
+  top: 360px;
+  left: 550px;
+}
+
+.hr_bg {
+  position: relative;
+  height: 19px;
+  width: 500px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #0c122c;
+  background-color: #0c122c;
+}
+
+.gradient {
+  position: relative;
+  bottom: 28px;
+  right: 61px;
+  height: 17px;
+  width: 375px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #0c122c;
+  background: linear-gradient(0.25turn, #ffa399, #ff4d97);
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  border-style: none;
+  display: inline-block;
+  position: relative;
+  bottom: 61px;
+  left: 410px;
+}
+
+.used {
+  padding: 20px 0 0 50px;
+  font-weight: normal;
+}
+
+.zero {
+  position: relative;
+  bottom: 190px;
+  left: 50px;
+}
+
+.thousand {
+  position: relative;
+  bottom: 225px;
+  left: 500px;
+}
+
+.bubble {
+  position: relative;
+  bottom: 250px;
+  left: 380px;
+  background: #FFFFFF;
+  text-align: center;
+  width: 170px;
+  height: 75px;
+  border-radius: 10px 10px 0 10px;
+}
+
+.bubble:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-style: solid;
+  border-width: 0 18px 21px 0;
+  border-color: transparent #FFFFFF transparent transparent;
+  bottom: -21px;
+  left: 171px;
+  margin-left: -19px;
+}
+
+.big {
+  color: #0c122c;
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+}
+
+.left {
+  color: grey;
+  font-size: 1rem;
+  position: relative;
+  bottom: 5px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
